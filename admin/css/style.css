@@ -1,0 +1,214 @@
+/*sets styles for chubops*/
+body {
+	margin: 0px;
+	font-family:Tahoma;
+	background-color:#000;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+}
+
+div {
+	/*border: 1px solid #000;*/
+}
+
+th {	
+	font-weight: bold;
+	color:gray;
+	background-color: pink;	
+	font-size: 12px;
+}
+
+ul	{
+	 margin: 0px; 
+	 padding: 0px; 
+	 display: inline; 
+	 list-style-type: none; 
+}
+
+li {
+	margin: 0px;
+	padding:0px;
+}
+
+td {
+	font-family:Tahoma;
+	font-size: 12px;
+}
+
+.center-div {
+     margin: 0 auto;
+	 text-align:center;
+}
+
+.header {
+	background-color:#000;
+	color:#FFF;
+	font-weight:normal;
+}
+
+.border {
+	border:1px solid #FFF;
+}
+
+.welcome {
+	font-family:Tahoma;
+	font-size:14px;
+	color:#156dff;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+
+.admin-text {
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.logo {
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align:center;
+}
+
+.admin-text a:link, .text a:visited{
+	color: pink;
+	text-decoration:none;
+}
+
+.login {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size:12px;
+	background-color:pink; 
+	color:darkblue;
+}
+
+.list-name{
+	text-align:center;
+	color:lightblue;
+	font-weight:bold;
+}
+
+#tiny_mce {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;     // You can give anything
+}
+
+/*******ADMIN MENU*******/
+#divNavMenu {
+    background:#660000;
+}
+
+#divTabs {
+	width:47%;
+    margin: 0 auto;
+    height: 2.1em;
+}
+
+#divTabs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1;
+    z-index: 999;
+}
+
+#divTabs li {
+	float: left;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#divTabs a:link,
+#divTabs a:visited {
+    margin: 0;
+    padding:0 .1em 0 .1em;
+    text-decoration: none;
+    background-color:#660000;
+    color: pink;
+}
+
+#divTabs a:hover {
+    background: pink;
+	color:#FFFFFF;
+}
+
+#divTabs ul#listMainTabs a:link, #divTabs ul#listMainTabs a:visited {
+ 	font-size:1em;
+	font-weight: normal;
+    padding: .4em .6em .5em .7em;
+}
+
+#listMainTabs a {
+    display: block;
+}
+
+/* Second Level */
+#listMainTabs li ul {
+    position: absolute;
+    width: 12em;
+    left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers - KA */
+}
+
+.parent{
+	width:6.5em;
+	text-align:center;
+}
+
+.listInner a {
+    width: 11em;
+}
+
+.listInner a.parent {
+    background: url('images/rightarrow.png') center right no-repeat;
+    background-color: #1a4f85;
+}
+
+/* Third+ Levels */
+#listMainTabs li ul ul {
+    margin: -2.5em 0 0 5em;
+}
+
+#listMainTabs li:hover ul ul, #listMainTabs li:hover ul ul ul, #listMainTabs li.over ul ul,
+#listMainTabs li.over ul ul ul {
+    left: -999em;
+}
+
+/* lists nested under hovered list items */
+#listMainTabs li:hover ul, #listMainTabs li li:hover ul, #listMainTabs li li li:hover ul,
+#listMainTabs li.over ul, #listMainTabs li li.over ul, #listMainTabs li li li.over ul {
+    left: auto;
+}
+
+#listMainTabs li:hover ul ul, #listMainTabs li:hover ul ul ul, #listMainTabs li:hover ul ul ul ul,
+#listMainTabs li.over ul ul, #listMainTabs li.over ul ul ul, #listMainTabs li.over ul ul ul ul {
+    left: -999em;
+}
+
+#listMainTabs li:hover ul, #listMainTabs li li:hover ul, #listMainTabs li li li:hover ul,
+#listMainTabs li li li li:hover ul, #listMainTabs li.over ul, #listMainTabs li li.over ul,
+#listMainTabs li li li.over ul, #listMainTabs li li li li.over ul {
+    left: auto;
+}
+
+#listMainTabs li{
+    display: inline;
+	padding:0;
+	margin:0;
+}
+
+/* IE7 Hack for hide bug */
+*:first-child+html #listMainTabs {
+    height: 1%;
+}
+
+*:first-child+html #listMainTabs li {
+    height: 1%;
+}
+
