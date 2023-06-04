@@ -1,0 +1,232 @@
+body {
+	margin: 0px;
+	font-family: Trebuchet MS, Veranda, Arial;
+	background-color:#000;
+	color:#fff;
+	font-size:9pt;
+}
+
+th {
+	font-size:12px;
+	font-weight:bold;
+	
+}
+
+td {
+	font-size: 10pt;
+}
+
+.cse-branding-form, .cse-branding-text{
+	text-align:center;
+	width:100%;
+}
+
+#cse-search-results{
+	text-align:center;
+}
+
+.google{
+	float:left;
+	width:52%;
+	text-align:right;
+}
+
+.cse-branding-logo{
+width:52%;
+text-align:right;
+}
+
+.border {
+	border:1px solid:#FFF;
+}
+
+.padding-top-bottom{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.padding-left-right {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.menu_container {
+	border: 1px solid #660000;
+	height:25px;
+	width:100%;
+	padding-bottom:10px;
+	background-color:#660000;
+	text-align:center;
+}
+
+.menu {
+	display: inline;
+	text-align: center;
+	padding:0, 30px,0 30px;
+	background-color:#660000;
+}
+
+.submenu_container {
+	margin: 0 auto;
+	height:25px;
+	width:100%;
+	text-align:center;
+	border:1px solid #000;
+}
+
+.submenu {
+	display: inline;
+	text-align: center;
+	padding:0, 30px,0 30px;
+}
+
+.submenu a {
+	color:#156dff;
+}
+
+a {
+	color:pink;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+	 
+.container {
+  display: grid;
+  width:900px;
+  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+  margin: 0 auto;
+}
+
+.center-div {
+     margin: 0 auto;
+     width: 925px; 
+}
+
+
+.body-width {
+	width:700px;
+	padding: 20px;
+	font-size: 14px;
+}
+
+.text-align-center{
+	text-align:center;
+}
+
+.facebook {
+	font-size:12px;
+}
+
+.chubops-container{
+	width:900px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.chubops {
+	text-align:center;
+	float:left;
+	width:100px;
+	height:175px;
+	padding:5px;
+	margin-bottom:10px;
+	
+}
+
+.chubops_menu_container {
+	margin: 0 auto;
+	height:25px;
+	width:100%;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.chubops_menu {
+	display: inline-block;
+	text-align: center;
+	padding:0, 30px,0 30px;
+	color:lightblue;
+	
+}
+
+.chubops_menu a {
+	color:lightblue;
+}
+
+.boxed {
+	float:left;
+	width:150px;
+	height:175px;
+	text-align:center;
+	margin:0 0 5px 0;
+	border: 1px solid #000;
+	
+}
+
+.hitpops-container{
+	margin: 0 auto;
+     width: 900px; 
+	 display: block;
+	 overflow: hidden;
+}
+
+/*FOREIGN*/
+.hitpops {
+	text-align:center;
+	float:left;
+	width:100px;
+	height:175px;
+	padding:5px;
+	margin-bottom:10px;
+	
+}
+
+/*boxed*/
+.link_container{
+	display:block;
+	margin:0 auto;
+	height:180px;
+	width:785px;
+}
+
+.link{
+	float:left;height:180px;margin:0 5px 0 0;
+}
+
+.link_pic{
+	text-align:center;
+}
+
+.link_container a:link, .link_container a:visited{
+	color:#000;
+}
+
+.link_container a:hover {
+	color:#000;
+}
+
+.link {
+	float:left;
+	height:180px;
+	margin:0 5px 0 0;
+}
+
+.list-link {
+	text-align:center;
+
+}
+
+.float-left {
+	float:left;
+}
+
+.display_inline{
+	display:inline;
+}
+
+.shop_text{
+	color:#fff;
+	font-size:9pt;
+	text-align:left;
+}
